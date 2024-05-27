@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog de Literatura</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Blog de Literatura</h1>
+    </header>
+
+    <div id="content">
+        <!-- Vista -->
+    </div>
+
+    <script src="modelo.js"></script>
+    <script src="vista.js"></script>
+    <script src="controlador.js"></script>
+
+    <script>
+        // Mis entradas del blog
+        blogModel.addPost(
+            "@a_YubelkyCastillo",
+            "¡La gente debería dejar de asumir!",
+            "No puedes vivir sabiendo lo que piensan los demás, ya que tus pensamientos no son iguales a los suyos. Tu concepto de la vida no es idéntico al de otra persona, y vivimos en un mundo con millones de individuos, cada uno con su propio universo mental. No debemos cuestionar ni asumir actitudes sin realmente conocer a las personas o creyendo ya conocerla, las personas evolucionan constantemente."
+        );
+
+        blogModel.addPost(
+            "@a_YubelkyCastillo",
+            " Estoy cansada de que te ofrezcan cariño a cambio de algo Necesito libertad de amar, de decidir, de emprender viajes que me benefician a mí, necesito pensar más en mí en qué es lo que merezco y necesito valorarme y perdonarme y darme una nueva oportunidad, creo fielmente que merezco más."
+        );
+
+        blogModel.addPost(
+            "@a_YubelkyCastilloa",
+            "Analiza dónde estás sembrando; hay tierra que no da frutos porque no es fértil.No te desgastes."
+        );
+
+        blogModel.addPost(
+            "@a_YubelkyCastillo",
+            "Están tan empeñados en demostrar algo a los demás, que te pierdes el privilegio de vivir y demostrarte a ti.💬"
+        );
+
+        blogModel.addPost(
+            "@a_YubelkyCastillo",
+            "Se necesita ser un individuo muy fuerte para sentarte a solas, calmar tus tormentas, y sanar todos tus problemas sin tratar de traer a alguien más a ese caos. Tu viaje hacia el amor propio es sólo eso y lo estás logrando."
+        );
+
+        blogModel.addPost(
+            "@a_YubelkyCastillo",
+            "Últimamente me he dado cuenta que todo el mundo parece estar bien hasta que finalmente tienes una conversación profunda con ellos y entonces, te darás cuenta de que estamos en una generación triste de personas luchando por sobrevivir a través de caras sonrientes y fotos lindas."
+        );
+
+        // Mostrar las entradas en la vista
+        blogView.displayPosts(blogModel.getPosts());
+    </script>
+</body>
+
+</html>

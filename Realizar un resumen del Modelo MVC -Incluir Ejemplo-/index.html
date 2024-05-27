@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Vista Controlador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <article>
+        <p>Moseñor Nouel,Bonao R.D 27/05/2024</p>
+        <h1>Modelo Vista Controlador</h1>
+
+        <h2>Que es Modelo Vista Controlador?</h2>
+
+        <p>
+
+            El Modelo-Vista-Controlador (MVC) es un patrón de diseño arquitectónico que se utiliza comúnmente en el
+            desarrollo de software para organizar el código de una aplicación de manera eficiente y modular. Este patrón
+            separa las preocupaciones relacionadas con la interfaz de usuario, la lógica de la aplicación y el
+            almacenamiento de datos en tres componentes principales: el Modelo, la Vista y el Controlador. Cada uno de
+            estos componentes tiene responsabilidades específicas y trabaja en conjunto para lograr una estructura más
+            clara y mantenible.
+        </p>
+
+        <p>
+            <b>
+                1. Modelo (Model):</b> Representa los datos y la lógica de la aplicación. El modelo se encarga de
+            gestionar
+            el estado de la aplicación, realizar operaciones sobre los datos y notificar a la Vista sobre los
+            cambios relevantes. <br><br>
+            <b> 2. Vista (View):</b> Es responsable de la presentación de la interfaz de usuario. Muestra la información
+            al
+            usuario y recoge las interacciones del usuario. La Vista obtiene los datos del Modelo, pero no
+            realiza
+            operaciones de lógica de negocio. También recibe actualizaciones del Modelo para reflejar cambios en
+            la
+            interfaz de usuario. <br><br>
+            <b> 3. Controlador (Controller):</b> Actúa como intermediario entre el Modelo y la Vista. Recibe las
+            interacciones
+            del usuario desde la Vista, procesa la lógica de negocio correspondiente (si es necesario) y
+            actualiza el
+            Modelo
+            en consecuencia. También puede recibir actualizaciones del Modelo y reflejar esos cambios en la
+            Vista.
+        </p>
+
+        <p>
+            Ventajas del Patrón MVC
+            Separación de Responsabilidades: Permite la separación clara de la lógica de negocio, la presentación y la
+            gestión de datos.
+
+            Facilita el Mantenimiento: Al ser modular, facilita la identificación y corrección de errores y la
+            introducción de nuevas funcionalidades sin afectar otras partes del sistema.
+
+            Reutilización del Código: La modularidad y la separación de responsabilidades facilitan la reutilización del
+            código en diferentes partes de la aplicación.
+
+            Escalabilidad: Permite escalar y gestionar aplicaciones de manera eficiente, especialmente en proyectos
+            grandes.
+        </p>
+        <img src="mvc.jpg" alt="imagen mvc">
+
+        <p>
+        <h1> <b> Aplicaciones del Patrón MVC</b></h1>
+
+        El patrón MVC se utiliza comúnmente en el desarrollo de aplicaciones web y de escritorio. También es
+        aplicable en el desarrollo de aplicaciones móviles y en sistemas embebidos.
+
+
+        El patrón Modelo-Vista-Controlador es una herramienta poderosa en el desarrollo de software que mejora la
+        estructura y mantenibilidad de las aplicaciones. Al adoptar este enfoque, los desarrolladores pueden crear
+        sistemas más robustos, flexibles y fáciles de mantener a lo largo del tiempo.
+
+
+        </p>
+        <a href="ejemplo.html">Ver Ejemplo</a>
+    </article>
+
+</body>
+
+</html>

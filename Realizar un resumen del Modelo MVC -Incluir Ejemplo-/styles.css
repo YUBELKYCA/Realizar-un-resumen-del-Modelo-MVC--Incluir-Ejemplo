@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5e1ce;
+    color: #7a5c3c;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b08e6b;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las entradas del blog */
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8c39e;
+}
+
+h2 {
+    color: #b08e6b;
+    font-size: 1.5em;
+
+}
+
+p {
+    line-height: 1.5;
+    font-size: 0.9em;
+
+    font-style: italic;
+
+}
+
+small {
+    color: #7a5c3c;
+    font-size: 0.8em;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+}
